@@ -48,12 +48,12 @@
 
 ## 🧠 Quote
 <p align="center">
-  "Code. Build. Grow. Repeat."
+  <b>"Code. Build. Grow. Repeat."</b>
 </p>
 
 ---
 
 ## 👀 Visitor Count
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dhanush2115&label=Profile%20Views&color=blue&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=dhanush2115&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>

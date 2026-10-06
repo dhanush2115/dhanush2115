@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dhanush Kumar M — Data Analyst Voice Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#0b0f13;--card:#121920;--ink:#e9eef1;--mute:#8b97a1;--line:#212c35;--sig:#f2b84b;--sig2:#4fd6c6;--on:#0b0f13;
+--d:'Bricolage Grotesque','Helvetica Neue',Arial,sans-serif;--b:'IBM Plex Sans',system-ui,sans-serif;--m:'IBM Plex Mono',ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0f13}}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f1f4f6;--card:#fff;--ink:#12181d;--mute:#5b6770;--line:#d6dde2;--sig:#b36b00;--sig2:#0b7f74;--on:#fff}}
+:root[data-theme="dark"]{--bg:#0b0f13;--card:#121920;--ink:#e9eef1;--mute:#8b97a1;--line:#212c35;--sig:#f2b84b;--sig2:#4fd6c6;--on:#0b0f13}
+:root[data-theme="light"]{--bg:#f1f4f6;--card:#fff;--ink:#12181d;--mute:#5b6770;--line:#d6dde2;--sig:#b36b00;--sig2:#0b7f74;--on:#fff}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 var(--b)}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0;font:500 13px var(--m)}
+header nav{display:flex;gap:20px;flex-wrap:wrap}
+header a{text-decoration:none;color:var(--mute)}header a:hover{color:var(--sig)}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;padding:36px 0 64px}
+h1{font:800 clamp(2.6rem,7vw,5.2rem)/.95 var(--d);letter-spacing:-.03em;margin:0 0 18px}
+h1 span{color:var(--sig)}
+.lede{color:var(--mute);max-width:46ch;margin:0 0 24px}
+.btn{display:inline-block;font:500 13px var(--m);padding:11px 18px;border-radius:6px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer;text-decoration:none}
+.btn.p{background:var(--sig);color:var(--on);border-color:var(--sig)}
+.btn:hover{border-color:var(--sig)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.console{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.top{display:flex;justify-content:space-between;font:500 12px var(--m);color:var(--mute)}
+#status{color:var(--sig2)}
+.orbwrap{display:grid;place-items:center;padding:22px 0 10px}
+.orb{width:140px;height:140px;border-radius:50%;overflow:hidden;border:3px solid var(--sig);box-shadow:0 0 0 8px color-mix(in srgb,var(--sig) 16%,transparent);transition:transform .3s}.orb img{width:100%;height:100%;object-fit:cover;display:block}
+.speaking .orb{animation:br 1s ease-in-out infinite}
+.listening .orb{animation:br .6s ease-in-out infinite;filter:hue-rotate(60deg)}
+@keyframes br{50%{transform:scale(1.12)}}
+.bars{display:flex;gap:3px;height:32px;align-items:center;justify-content:center;margin-bottom:12px}
+.bars i{width:3px;height:6px;background:var(--sig2);border-radius:2px}
+.speaking .bars i,.listening .bars i{animation:wv .7s ease-in-out infinite}
+@keyframes wv{50%{height:30px}}
+#log{height:150px;overflow-y:auto;font-size:14px;border-top:1px solid var(--line);padding-top:12px}
+#log p{margin:0 0 8px}#log b{font:500 11px var(--m);color:var(--sig);margin-right:6px}
+#log .u b{color:var(--sig2)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+.chip{font:400 12px var(--m);padding:5px 10px;border:1px solid var(--line);border-radius:99px;background:none;color:var(--mute);cursor:pointer}
+.chip:hover{color:var(--sig);border-color:var(--sig)}
+form{display:flex;gap:8px}
+input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);color:var(--ink);padding:10px 12px;border-radius:6px;font:14px var(--b)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font:700 clamp(1.7rem,4vw,2.4rem)/1.1 var(--d);letter-spacing:-.02em;margin:0 0 26px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.card h3{font:700 1.15rem var(--d);margin:0}
+.card p{margin:0;color:var(--mute);font-size:14.5px}
+.tags{font:400 12px var(--m);color:var(--sig2)}
+.card .btn{align-self:flex-start;margin-top:auto;padding:7px 12px;font-size:12px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.skills h3{font:500 12px var(--m);color:var(--sig);margin:0 0 6px}
+.skills p{margin:0;color:var(--mute);font-size:14.5px}
+.paper{background:#fff;color:#111;max-width:800px;margin:0 auto;padding:36px 40px;border-radius:4px;font:400 13px/1.5 'IBM Plex Sans',Arial,sans-serif}
+.paper h1{font:800 26px var(--d);letter-spacing:-.01em;margin:0;color:#111}
+.paper .ct{color:#444;margin:2px 0 10px;font-size:12px}
+.paper h4{font:700 11.5px var(--d);letter-spacing:.08em;text-transform:uppercase;border-bottom:1.5px solid #111;margin:12px 0 5px;padding-bottom:2px}
+.paper p,.paper ul{margin:0 0 4px}.paper ul{padding-left:18px}.paper li{margin-bottom:2px}
+.paper .h{display:flex;justify-content:space-between;font-weight:500}.paper .h span:last-child{font-weight:400;color:#444}
+footer{padding:30px 0 40px;color:var(--mute);font:400 12px var(--m);border-top:1px solid var(--line)}
+@media(max-width:820px){.hero{grid-template-columns:1fr}.paper{padding:22px 18px}}
+.demos{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:16px}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;font:12px/1.5 var(--m);overflow-x:auto;margin:0;white-space:pre-wrap;color:var(--mute)}
+.out{min-height:120px}table{border-collapse:collapse;font:12px var(--m);width:100%}td,th{padding:4px 8px;border-bottom:1px solid var(--line);text-align:left}th{color:var(--sig)}
+.kp{display:flex;gap:18px;align-items:center}.ring{--p:0;width:96px;height:96px;border-radius:50%;background:conic-gradient(var(--sig2) calc(var(--p)*1%),var(--line) 0);display:grid;place-items:center;flex:none}.ring b{background:var(--card);width:72px;height:72px;border-radius:50%;display:grid;place-items:center;font:700 18px var(--d)}
+.bar{display:grid;grid-template-columns:120px 1fr 70px;gap:8px;align-items:center;font:12px var(--m);margin:5px 0}.bar i{display:block;height:12px;background:var(--sig2);border-radius:3px;transition:width .6s}
+.dem h3 small{display:block;font:400 11px var(--m);color:var(--mute);margin-top:2px}
+@media print{
+.np{display:none!important}:root{padding:0}body{background:#fff}
+section#resume{border:0;padding:0}.paper{max-width:none;padding:0;border-radius:0}
+@page{margin:14mm}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="np"><b style="color:var(--sig)">dhanush.kumar / ai</b>
+<nav><a href="#work">Work</a><a href="#demos">Live demos</a><a href="#skills">Skills</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav></header>
+
+<div class="hero np">
+<div>
+<h1>Dhanush<br>Kumar <span>M</span></h1>
+<p class="lede">Aspiring <b>Data Analyst</b> who turns raw records into SQL models, Excel and Chart.js dashboards, and clear business answers. Press the button and my AI voice will walk you through the work, then ask it anything.</p>
+<div class="row"><button class="btn p" id="intro">▶ Start voice intro</button><a class="btn" href="#resume">View resume</a></div>
+</div>
+
+<div class="console" id="con">
+<div class="top"><span>AI AVATAR · ASK ME ANYTHING</span><span id="status">idle</span></div>
+<div class="orbwrap"><div class="orb"><img alt="Dhanush Kumar" src="data:image/jpeg;base64,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"></div></div>
+<div class="bars" id="bars"></div>
+<div id="log" aria-live="polite"></div>
+<div class="chips" id="chips"></div>
+<form id="f"><input id="q" placeholder="Ask about skills, projects, hiring…" autocomplete="off"><button class="btn" type="button" id="mic">🎙 Speak</button><button class="btn p" type="submit">Ask</button></form>
+<div class="top" style="margin-top:10px"><span id="note">Voice replies use your browser's speech engine.</span><button class="chip" id="mute" type="button">mute</button></div>
+</div>
+</div>
+
+<section id="work" class="np"><h2>Selected work</h2>
+<div class="grid" id="projects"></div></section>
+
+<section id="demos" class="np"><h2>Live project demos</h2>
+<p class="lede" style="max-width:70ch">Run each project right here. They use a small sample dataset (not production data), but the logic is the same.</p>
+<div class="demos">
+<div class="card dem"><h3>SQL · Train revenue ranking<small>window function + GROUP BY</small></h3>
+<pre>SELECT route, SUM(fare*pax) AS revenue,
+ RANK() OVER (ORDER BY SUM(fare*pax) DESC) AS rnk
+FROM trips GROUP BY route;</pre>
+<button class="btn p" id="rsql">▶ Run query</button><div class="out" id="osql"></div></div>
+<div class="card dem"><h3>Excel · Bank loan dashboard<small>4,269 applications · formula-driven KPIs</small></h3>
+<pre>=COUNTIFS(Data!Status,"Approved")/COUNTA(Data!Status)</pre>
+<button class="btn p" id="rxl">▶ Calculate</button>
+<div class="out kp"><div class="ring" id="ring"><b id="pct">0%</b></div><div style="font:13px var(--m)">Applications: <b id="ap">0</b><br>Approval rate: <b>62%</b><br>7 KPIs · 7 charts</div></div></div>
+<div class="card dem"><h3>Power BI-style · Route dashboard<small>click a slicer to filter every visual</small></h3>
+<div class="row" id="sl"></div><div style="font:13px var(--m)">Total revenue: <b id="tot"></b></div><div id="bi"></div>
+<p style="font-size:12px">A browser replica of the Power BI layout. Link your own published report here for the real thing.</p></div>
+<div class="card dem"><h3>Python · pandas analysis<small>groupby + sort</small></h3>
+<pre>df["rev"] = df.fare * df.pax
+print(df.groupby("route").rev.sum()
+        .sort_values(ascending=False))</pre>
+<button class="btn p" id="rpy">▶ Run script</button><pre class="out" id="opy"></pre></div>
+</div></section>
+
+<section id="skills" class="np"><h2>Toolbox</h2>
+<div class="skills">
+<div><h3>ANALYSIS</h3><p>SQL with CTEs and window functions, Excel formulas, KPI design</p></div>
+<div><h3>VISUALIZATION</h3><p>Power BI, Chart.js dashboards, Excel charts</p></div>
+<div><h3>PROGRAMMING</h3><p>Python, JavaScript, Java</p></div>
+<div><h3>DATABASES</h3><p>MySQL, MongoDB, schema design</p></div>
+<div><h3>CERTIFIED</h3><p>Prompt Engineering (HCL), MS Office (Microsoft)</p></div>
+</div></section>
+
+<section id="resume"><div class="np" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:22px"><h2 style="margin:0">Resume</h2><button class="btn p" onclick="window.print()">⬇ Save as PDF</button></div>
+<article class="paper">
+<h1>Dhanush Kumar M</h1>
+<div style="font:700 13px var(--d);margin-top:2px">Data Analyst</div>
+<div class="ct">Anekal, Karnataka · +91 93422 52396 · dhanushm95872@gmail.com · github.com/dhanush2115 · linkedin.com/in/dhanushkumar2721</div>
+<h4>Summary</h4>
+<p>Final-year B.Tech IT student seeking a Data Analyst role. Skilled in SQL (CTEs, window functions), Excel dashboards and Chart.js visualization, with project work on 4,000+ record datasets, KPI design and database integrity.</p>
+<h4>Education</h4>
+<div class="h"><span>B.Tech, Information Technology — Kingston Engineering College, Vellore</span><span>2022 – 2026</span></div>
+<div class="h"><span>Higher Secondary (12th) — Namakkal Teachers Vidhyaashram School</span><span>2021 – 2022</span></div>
+<h4>Skills</h4>
+<p><b>Analysis:</b> SQL (joins, CTEs, window functions), Excel (COUNTIFS, AVERAGEIF, dashboards), KPI design, data cleaning &nbsp;·&nbsp; <b>Visualization:</b> Power BI, Chart.js, Excel charts &nbsp;·&nbsp; <b>Programming:</b> Python, JavaScript, Java &nbsp;·&nbsp; <b>Databases:</b> MySQL, MongoDB &nbsp;·&nbsp; <b>Tools:</b> Jupyter, Git/GitHub</p>
+<h4>Projects</h4>
+<div class="h"><span>Bank Loan Approval Dashboard — Excel</span></div>
+<ul><li>Analyzed 4,269 loan applications; built 7 formula-driven charts and 7 KPIs, including a 62% approval rate, average loan amount, income and CIBIL score.</li><li>Compared approvals by education, employment type, income and CIBIL score using COUNTIFS and AVERAGEIF.</li></ul>
+<div class="h"><span>Train Travel Analytics — SQL</span></div>
+<ul><li>Designed a 7-table schema and wrote 12 business queries using CTEs and window functions.</li></ul>
+<div class="h"><span>Analytics Dashboards — JavaScript, Chart.js</span></div>
+<ul><li>Delivered five interactive dashboards: sales performance, customer churn, student performance, fraud detection and web traffic.</li></ul>
+<div class="h"><span>Student Management System — PHP, MySQL</span></div>
+<ul><li>Designed a 3NF schema handling 5,000+ records with zero integrity violations.</li></ul>
+<div class="h"><span>Smart Resume AI Platform — Python, Claude API</span></div>
+<ul><li>Built an analyzer that scores resume fit against a role and returns structured feedback.</li></ul>
+<h4>Certifications</h4>
+<p>Prompt Engineering — HCL · MS Office — Microsoft</p>
+</article></section>
+
+<footer class="np" id="contact">Dhanush Kumar M · dhanushm95872@gmail.com · +91 93422 52396 · <a href="https://github.com/dhanush2115">GitHub</a> · <a href="https://linkedin.com/in/dhanushkumar2721">LinkedIn</a></footer>
+</div>
+
+<script>
+const P=[
+{t:"Bank Loan Dashboard",s:"Excel · COUNTIFS · KPIs",d:"4,269 loan applications turned into 7 live charts and KPIs, including a 62% approval rate, driven entirely by formulas.",v:"The Bank Loan Dashboard analyses four thousand two hundred sixty-nine applications with seven live charts and seven KPIs, including a sixty-two percent approval rate, all driven by Excel formulas."},
+{t:"Train Travel Analytics",s:"SQL · CTEs · Window functions",d:"A 7-table schema with 12 analytical queries covering business questions with CTEs and window functions.",v:"Train Travel Analytics is a SQL project with a seven-table schema and twelve analytical queries using CTEs and window functions."},
+{t:"Student Management System",s:"PHP · MySQL · CRUD",d:"A database-driven app for student records. A 3NF schema handles over 5,000 records with zero integrity violations, with validated, injection-safe CRUD.",v:"The Student Management System is a PHP and MySQL app. I designed a third-normal-form schema that handles over five thousand records with zero integrity violations, plus validated and injection-safe CRUD operations."},
+{t:"Smart Resume AI Platform",s:"Python · Claude API",d:"An analyzer that checks a resume against a role and returns ATS-style feedback using an LLM API.",v:"The Smart Resume AI Platform is a Python tool that uses the Claude API to analyse resumes and give ATS-style feedback."},
+{t:"Analytics Dashboards",s:"JavaScript · Chart.js",d:"Five interactive dashboards: sales, churn prediction, student performance, fraud detection and web traffic.",v:"I built five interactive Chart.js dashboards covering sales, churn prediction, student performance, fraud detection and web traffic."},
+{t:"Java Mini Apps",s:"Java · OOP · Algorithms",d:"A suite of small programs applying inheritance, encapsulation, polymorphism and core algorithms.",v:"The Java mini apps suite applies inheritance, encapsulation, polymorphism and core algorithms to small real-world problems."}];
+const KB=[
+{k:["hello","hi","hey"],a:"Hello! I'm Dhanush's portfolio assistant. Ask me about his skills, projects, education, or how to hire him."},
+{k:["who","about","yourself","introduce"],a:"Dhanush Kumar is a final-year B.Tech Information Technology student at Kingston Engineering College, graduating in 2026. He is aiming for Data Analyst roles."},
+{k:["skill","tech","stack","language","tools","know"],a:"For analysis he uses SQL with CTEs and window functions, and Excel formulas. For visuals he uses Chart.js and Excel charts. He also codes in Python, JavaScript and Java, and works with MySQL and MongoDB."},
+{k:["project","built","work","portfolio"],a:"Highlights are a Bank Loan Dashboard in Excel, a SQL train analytics project, five Chart.js dashboards, and a Student Management System with a clean normalized database. Scroll to Selected work and press Hear it on any card."},
+{k:["data","analyst","analytics","dashboard","sql"],a:"On the data side he has built five Chart.js dashboards, an Excel loan dashboard with 4,269 records, and a SQL project with 12 queries using CTEs and window functions."},
+{k:["ai","llm","claude","prompt"],a:"He holds a Prompt Engineering certification from HCL and built a Python resume analyzer on the Claude API."},
+{k:["education","college","study","degree","graduate"],a:"He is completing a B.Tech in Information Technology at Kingston Engineering College, Vellore, from 2022 to 2026."},
+{k:["certification","certificate","certified"],a:"He is certified in Prompt Engineering by HCL and in MS Office by Microsoft."},
+{k:["resume","cv","download","pdf"],a:"The resume is at the bottom of this page. Press Save as PDF and choose Save as PDF in the print dialog for a one-page file."},
+{k:["contact","email","phone","reach","hire","job","opportunity","available"],a:"He is open to full-time roles, internships and collaborations. Email dhanushm95872@gmail.com or call plus nine one, nine three four two, two five two three nine six."},
+{k:["location","where","based","live"],a:"He is based in Anekal, Karnataka, and open to opportunities across India."},
+{k:["language","tamil","telugu","speak"],a:"He speaks Tamil natively, English professionally, and a little Telugu."}];
+const $=s=>document.querySelector(s),log=$('#log'),con=$('#con');
+let muted=false,voice=null;
+for(let i=0;i<28;i++){const e=document.createElement('i');e.style.animationDelay=(i%7)*0.09+'s';$('#bars').appendChild(e)}
+function state(s){con.classList.remove('speaking','listening');if(s!=='idle')con.classList.add(s);$('#status').textContent=s}
+function pick(){const v=speechSynthesis.getVoices();voice=v.find(x=>x.lang==='en-IN')||v.find(x=>x.lang.startsWith('en'))||null}
+if('speechSynthesis' in window){pick();speechSynthesis.onvoiceschanged=pick}else $('#note').textContent='Speech output is not supported in this browser; text replies still work.';
+function speak(t){if(muted||!('speechSynthesis' in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);if(voice)u.voice=voice;u.rate=.98;u.onstart=()=>state('speaking');u.onend=u.onerror=()=>state('idle');speechSynthesis.speak(u)}
+function add(w,t){const p=document.createElement('p');p.className=w;p.innerHTML='<b>'+(w==='u'?'YOU':'AI')+'</b>';p.append(t);log.appendChild(p);log.scrollTop=log.scrollHeight}
+function answer(q){q=q.toLowerCase();let best=null,sc=0;for(const e of KB){let n=0;for(const k of e.k)if(new RegExp('\\b'+k).test(q))n++;if(n>sc){sc=n;best=e}}
+return best?best.a:"I can talk about Dhanush's skills, projects, education, certifications, resume and contact details. Try one of the suggestions below."}
+function ask(q){q=q.trim();if(!q)return;add('u',q);const a=answer(q);add('ai',a);speak(a)}
+['Who is Dhanush?','What are his skills?','Tell me about projects','Is he available?','Education'].forEach(t=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=t;b.onclick=()=>ask(t);$('#chips').appendChild(b)});
+$('#f').onsubmit=e=>{e.preventDefault();ask($('#q').value);$('#q').value=''};
+$('#mute').onclick=e=>{muted=!muted;if(muted&&window.speechSynthesis){speechSynthesis.cancel();state('idle')}e.target.textContent=muted?'unmute':'mute'};
+$('#intro').onclick=()=>{const t="Hi, I'm the AI avatar of Dhanush Kumar. He is a final-year IT student who builds database-driven web apps and data dashboards, from SQL schemas to Chart.js analytics, and even AI tools on the Claude API. Ask me about his projects, skills, or how to get in touch.";add('ai',t);speak(t);con.scrollIntoView({behavior:'smooth',block:'center'})};
+const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+if(SR){const r=new SR();r.lang='en-IN';r.interimResults=false;r.onstart=()=>state('listening');r.onend=()=>{if(!con.classList.contains('speaking'))state('idle')};r.onresult=e=>ask(e.results[0][0].transcript);r.onerror=()=>state('idle');
+$('#mic').onclick=()=>{if(window.speechSynthesis)speechSynthesis.cancel();try{r.start()}catch(_){}}}
+else{$('#mic').style.display='none';$('#note').textContent='Voice input needs Chrome, Edge or Safari. You can type instead.'}
+
+const rows=[['Chennai–Bengaluru','AC',1450,38],['Chennai–Bengaluru','Sleeper',900,52],['Chennai–Bengaluru','General',420,90],['Bengaluru–Mysuru','AC',700,41],['Bengaluru–Mysuru','General',250,120],['Chennai–Madurai','Sleeper',1100,47],['Chennai–Madurai','AC',1800,30],['Chennai–Madurai','General',520,70],['Vellore–Chennai','General',180,150],['Vellore–Chennai','Sleeper',450,60],['Vellore–Chennai','AC',600,35]];
+const D=rows.map(([route,cls,fare,pax])=>({route,cls,fare,pax,rev:fare*pax}));
+const inr=n=>'₹'+n.toLocaleString('en-IN'),sl=ms=>new Promise(r=>setTimeout(r,ms));
+const byRoute=f=>{const m={};D.filter(f).forEach(d=>m[d.route]=(m[d.route]||0)+d.rev);return Object.entries(m).sort((a,b)=>b[1]-a[1])};
+$('#rsql').onclick=async()=>{const o=$('#osql');o.innerHTML='<table><tr><th>route</th><th>revenue</th><th>rnk</th></tr></table>';const t=o.firstChild;let i=0;for(const [k,v] of byRoute(()=>true)){await sl(350);t.insertAdjacentHTML('beforeend','<tr><td>'+k+'</td><td>'+inr(v)+'</td><td>'+(++i)+'</td></tr>')}};
+$('#rxl').onclick=()=>{const t0=performance.now();(function f(n){const p=Math.min((n-t0)/1500,1);$('#ring').style.setProperty('--p',62*p);$('#pct').textContent=Math.round(62*p)+'%';$('#ap').textContent=Math.round(4269*p).toLocaleString('en-IN');if(p<1)requestAnimationFrame(f)})(t0)};
+let cl='All';function bi(){const f=d=>cl==='All'||d.cls===cl,r=byRoute(f),mx=r[0][1];$('#tot').textContent=inr(r.reduce((a,x)=>a+x[1],0));$('#bi').innerHTML=r.map(x=>'<div class="bar"><span>'+x[0]+'</span><i style="width:'+x[1]/mx*100+'%"></i><span>'+inr(x[1])+'</span></div>').join('')}
+['All','AC','Sleeper','General'].forEach(c=>{const b=document.createElement('button');b.className='chip';b.textContent=c;b.onclick=()=>{cl=c;bi()};$('#sl').appendChild(b)});bi();
+$('#rpy').onclick=async()=>{const o=$('#opy');o.textContent='';const L=['route'].concat([]);o.textContent='>>> running...\n';await sl(500);o.textContent='route';for(const [k,v] of byRoute(()=>true)){await sl(350);o.textContent+='\n'+k.padEnd(20)+v}o.textContent+='\nName: rev, dtype: int64'};
+const ALL="Here is everything about Dhanush. He is a final-year B.Tech Information Technology student at Kingston Engineering College, graduating in 2026, and he is aiming for Data Analyst roles. He uses SQL with window functions, Excel dashboards, Power BI, Python and Chart.js. His projects include a bank loan dashboard on 4,269 applications, a SQL train analytics database, five interactive dashboards, and a student management system with 5,000 records. He speaks Tamil, English and basic Telugu, and is open to jobs and internships. Scroll to Live project demos to run his work.";
+KB.unshift({k:["everything","all about","tell me all","full"],a:ALL},{k:["demo","run","live","power","excel","python"],a:"Scroll to Live project demos. You can run the SQL query, calculate the Excel KPIs, filter the Power BI-style dashboard, and run the Python script."});
+KB.find(e=>e.k[0]==='hello').k=['hello','hey'];
+['Tell me everything about Dhanush'].forEach(t=>{const b=document.createElement('button');b.className='chip';b.textContent=t;b.onclick=()=>ask(t);$('#chips').prepend(b)});
+const g=$('#projects');P.forEach(p=>{const c=document.createElement('div');c.className='card';c.innerHTML='<h3>'+p.t+'</h3><div class="tags">'+p.s+'</div><p>'+p.d+'</p>';const b=document.createElement('button');b.className='btn';b.textContent='🔊 Hear it';b.onclick=()=>{add('ai',p.v);speak(p.v)};c.appendChild(b);g.appendChild(c)});
+</script>
+</body>
+</html>

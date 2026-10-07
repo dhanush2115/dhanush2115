@@ -1,153 +1,293 @@
 <div align="center">
 
-<!-- 🌌 1. ANIMATED HERO HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&customColorList=6,11,20,24&text=DHANUSH%20KUMAR%20M&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=DATA%20ANALYST%20%E2%80%A2%20SQL%20%E2%80%A2%20POWER%20BI&descAlignY=62&descSize=16" width="100%" />
+<img src="assets/banner.svg" alt="Dhanush Kumar M - Aspiring Data Analyst | SQL, Python, Power BI, Excel, Business Intelligence" width="100%"/>
 
-<!-- 🤖 2. AI SYSTEM STATUS -->
-<img src="https://user-images.githubusercontent.com/74038190/212897655-6f7d4fcb-4d0d-4c75-8f5e-0d9e4c7b8b3e.gif" width="120" />
-<br>
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=1700&pause=450&color=00FF88&center=true&vCenter=true&width=800&lines=%5BSYSTEM%5D+ONLINE;%5BMODULE%5D+BUILDING;%5BDATABASE%5D+ANALYZING;%5BSTATUS%5D+ALL+SYSTEMS+NOMINAL" />
+<a href="https://github.com/dhanush2115">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=720&height=50&lines=Data+Analyst;SQL+Developer;Power+BI+Developer;Python+Data+Analyst;Business+Intelligence+Enthusiast" alt="Typing animation: Data Analyst, SQL Developer, Power BI Developer, Python Data Analyst, Business Intelligence Enthusiast"/>
+</a>
 
-<!-- ⚡ 3. TYPING ANIMATION (ROLES) -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=2000&pause=600&color=00F7FF&center=true&vCenter=true&width=800&lines=%F0%9F%93%8A+DATA+ANALYST;%F0%9F%97%84%EF%B8%8F+SQL+DEVELOPER;%F0%9F%93%88+POWER+BI+DEVELOPER" />
-
-<!-- 🔗 QUICK CONNECT BAR -->
-<p align="center">
-  <a href="https://dhanush2115.github.io/"><img src="https://img.shields.io/badge/Live_Portfolio-0B0F13?style=for-the-badge&logo=safari&logoColor=00F7FF&border=00F7FF" /></a>
-  <a href="https://www.linkedin.com/in/dhanushkumar2721/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:dhanushm95872@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<p>
+  <a href="https://linkedin.com/in/dhanushkumar2721/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/dhanush2115"><img src="https://img.shields.io/badge/GitHub-dhanush2115-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="mailto:dhanushm95872@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <!-- REPLACE: YOUR_PORTFOLIO_URL with your portfolio website, or delete this badge -->
+  <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-View-00D4FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://github.com/dhanush2115/dhanush2115/blob/main/portfolio/Dhanush_Kumar_M_Resume.pdf"><img src="https://img.shields.io/badge/Resume-Download-1F2A5A?style=for-the-badge&logo=readme&logoColor=white" alt="Resume"/></a>
 </p>
 
----
+<img src="https://komarev.com/ghpvc/?username=dhanush2115&label=Profile+Views&color=8B5CF6&style=flat-square" alt="Profile views"/>
 
-<!-- 🧠 4. ABOUT / DIGITAL IDENTITY -->
-<h3 align="left">👨‍💻 <code>identity.py</code></h3>
-
-```python
-class DataAnalyst:
-    def __init__(self):
-        self.name = "Dhanush Kumar M"
-        self.role = ["Data Analyst", "SQL Developer", "Power BI Developer"]
-        self.focus = "Transforming raw records into deterministic SQL models and high-fidelity BI views."
-        
-    def execute_career_mission(self):
-        return "Extract. Transform. Load. Visualize. Decide."
-
-if __name__ == '__main__':
-    dhanush = DataAnalyst()
-    print(dhanush.execute_career_mission())
-</td>
-  </tr>
-</table>
+</div>
 
 ---
 
-<!-- 🚀 7. FEATURED PROJECTS -->
-<h3 align="left">🚀 <code>featured_projects.load()</code></h3>
+## Recruiter Snapshot
 
-<table align="center" width="100%">
-  <tr>
-    <td width="33%" valign="top" align="center">
-      <h3>📱 Social Media Analytics</h3>
-      <p>SQL insights into user engagement, growth, and retention metrics.</p>
-      <img src="https://img.shields.io/badge/SQL_Queries-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>🚆 Train Travel Analytics</h3>
-      <p>7-table normalized SQL schema utilizing CTEs and window functions.</p>
-      <img src="https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white"/>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>👨‍💼 Employee Analytics</h3>
-      <p>Salary distributions, HR metrics, and department KPIs modeled in SQL.</p>
-      <img src="https://img.shields.io/badge/Data_Modeling-7C5CFF?style=flat-square"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top" align="center">
-      <h3>💰 Sales Intelligence</h3>
-      <p>Executive Power BI dashboard mapping revenue, profits, and regional sales.</p>
-      <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>🎓 Student Analytics</h3>
-      <p>Academic tracking dashboard filtering attendance and performance metrics.</p>
-      <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>📈 Excel Sales Report</h3>
-      <p>Formula-driven KPIs (COUNTIFS/AVERAGEIF) over thousands of records.</p>
-      <img src="https://img.shields.io/badge/Advanced_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white"/>
-    </td>
-  </tr>
-</table>
+| | |
+|---|---|
+| **Name** | Dhanush Kumar M |
+| **Target roles** | Data Analyst, Junior Data Analyst, SQL Developer, Power BI Developer |
+| **Core stack** | SQL, MySQL, Python, Power BI, Excel, Database Design, ER Diagram |
+| **Learning** | Machine Learning, Tableau, Advanced SQL, Python for Data Analytics |
+| **Education** | B.Tech Information Technology, Kingston Engineering College (Class of 2026) |
+| **Location** | Vellore, Tamil Nadu, India |
+| **Contact** | [LinkedIn](https://linkedin.com/in/dhanushkumar2721/) · [Email](mailto:dhanushm95872@gmail.com) · [Resume](https://github.com/dhanush2115/dhanush2115/blob/main/portfolio/Dhanush_Kumar_M_Resume.pdf) |
 
 ---
 
-<!-- 📈 8. GITHUB ANALYTICS -->
-<h3 align="left">📈 <code>github_analytics.render()</code></h3>
+## About Me
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dhanush2115&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhanush2115&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</p>
+<div align="center">
+  <img src="assets/profile.svg" alt="Profile summary: Data Analyst, Dhanush Kumar M, Vellore Tamil Nadu, B.Tech Information Technology, Kingston Engineering College" width="100%"/>
+</div>
 
-<details align="center">
-  <summary><kbd><b>🔥 Click to View Streaks, Trophies & Activity Stats</b></kbd></summary>
-  <br>
-  <img src="https://streak-stats.demolab.com?user=dhanush2115&theme=tokyonight&hide_border=true&mode=weekly" />
-  <br><br>
-  <img src="https://github-profile-trophy.vercel.app/?username=dhanush2115&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1&column=6" width="90%" />
-  <br><br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dhanush2115&theme=tokyo-night&hide_border=true&area=true&custom_title=DHANUSH%20KUMAR%20M%20-%20ACTIVITY" width="90%" />
+<br/>
+
+I am a **B.Tech Information Technology** student at **Kingston Engineering College**, Vellore, Tamil Nadu, building toward a career as a **Data Analyst**. I like turning raw data into clear answers: writing **SQL**, designing **MySQL** databases, and shaping **dashboards** in **Power BI** and **Excel**.
+
+- **Education:** B.Tech Information Technology, Kingston Engineering College (Class of 2026)
+- **Location:** Vellore, Tamil Nadu, India
+- **Focus:** Data Analyst, Junior Data Analyst, SQL Developer, Power BI Developer
+- **Interests:** Business Intelligence, data visualization, dashboard development, data-driven problem solving
+- **Currently learning:** Machine Learning, Tableau, Advanced SQL, Python for Data Analytics
+
+## Career Objective
+
+Entry-level **Data Analyst / Junior Data Analyst / SQL Developer / Power BI Developer** role where I can apply **SQL, MySQL, Python, Power BI and Excel** to turn business data into dashboards, insights and better decisions.
+
+---
+
+## Technical Skills
+
+<div align="center">
+  <img src="assets/skills.svg" alt="Technical skills: SQL, MySQL, Python, Excel, Power BI, Database Design, ER Diagram. Learning Tableau, Machine Learning, Advanced SQL, Python for Data Analytics" width="100%"/>
+</div>
+
+<div align="center">
+
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau_(learning)-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning_(learning)-8B5CF6?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+</div>
+
+<details>
+<summary><b>Core competencies</b></summary>
+
+<br/>
+
+**Data Analytics:** SQL, MySQL, Python, Excel, Power BI, Tableau, Data Visualization
+**Database:** SQL, MySQL, Database Design, ER Diagram
+**Business Intelligence:** Power BI, Excel, Tableau, Dashboard Development
+**Learning:** Machine Learning, Advanced SQL, Python for Data Analytics
+
 </details>
 
 ---
 
-<!-- 🐍 9. CONTRIBUTION SNAKE -->
-<h3 align="center">🐍 Contribution Activity Map</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dhanush2115/dhanush2115/output/github-contribution-grid-snake.svg" width="90%" alt="GitHub Contribution Snake" />
-</p>
+## Data Analytics Workflow
+
+<div align="center">
+  <img src="assets/workflow.svg" alt="Workflow: data source, data collection, SQL database, data cleaning, Python analysis, Power BI or Tableau, dashboard, business insights" width="640"/>
+</div>
 
 ---
 
-<!-- 🎓 10. EDUCATION & 🧪 11. CURRENTLY LEARNING -->
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🎓 Education</h3>
-      <p align="center"><b>Kingston Engineering College</b></p>
-      <p align="center"><i>B.Tech, Information Technology</i></p>
-      <p align="center">Batch: 2022 – 2026</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🧪 Currently Learning</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square&logo=scikitlearn&logoColor=white"/><br><br>
-        <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white"/><br><br>
-        <img src="https://img.shields.io/badge/Advanced_SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-      </p>
-    </td>
-  </tr>
+## Featured Projects
+
+<!--
+  REPLACE BEFORE PUBLISHING
+  - Repository links use https://github.com/dhanush2115/<project-name>. Create those repos or change the links.
+  - "Live Dashboard" links are YOUR_LIVE_DASHBOARD_URL placeholders. Add a real link or delete the link.
+  - Review each "Key features" list so it matches what you actually built.
+-->
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[Train Travel Management System](https://github.com/dhanush2115/train-travel-management)**
+
+Relational database for train travel operations with analytical SQL on bookings and routes.
+
+`SQL` · `MySQL` · `Database Design` · `ER Diagram`
+
+- Normalized schema with ER diagram
+- 7 related tables with sample data
+- 12 analytical queries using CTEs and window functions
+
+[View Project](https://github.com/dhanush2115/dhanush2115/tree/main/projects/train-travel-management) · [GitHub Repository](https://github.com/dhanush2115/train-travel-management)
+
+</td>
+<td width="50%" valign="top">
+
+**[Social Media Analytics](https://github.com/dhanush2115/social-media-analytics)**
+
+SQL analysis of social media activity to understand engagement and content performance.
+
+`SQL` · `MySQL` · `Data Analytics`
+
+- MySQL schema for users, posts and engagement
+- Queries for engagement, reach and top content
+- Findings summarized as business insights
+
+[View Project](https://github.com/dhanush2115/dhanush2115/tree/main/projects/social-media-analytics) · [GitHub Repository](https://github.com/dhanush2115/social-media-analytics)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Employee Analytics](https://github.com/dhanush2115/employee-analytics)**
+
+Workforce analysis combining SQL, Python and Excel to summarize employee data.
+
+`SQL` · `Python` · `Excel`
+
+- SQL queries for headcount and department trends
+- Python analysis and visualizations
+- Excel summary tables for reporting
+
+[View Project](https://github.com/dhanush2115/dhanush2115/tree/main/projects/employee-analytics) · [GitHub Repository](https://github.com/dhanush2115/employee-analytics)
+
+</td>
+<td width="50%" valign="top">
+
+**[Sales Intelligence Dashboard](https://github.com/dhanush2115/sales-intelligence)**
+
+Interactive Power BI dashboard that turns sales data into KPIs and trends.
+
+`Power BI` · `Excel` · `Data Visualization`
+
+- KPI cards and sales trend visuals
+- Interactive slicers and filters
+- Excel as the prepared data source
+
+[View Project](https://github.com/dhanush2115/dhanush2115/tree/main/projects/sales-intelligence) · [GitHub Repository](https://github.com/dhanush2115/sales-intelligence) · [Live Dashboard](YOUR_LIVE_DASHBOARD_URL)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Student Analytics Dashboard](https://github.com/dhanush2115/student-analytics)**
+
+Power BI report analyzing student performance data for clear, filterable insights.
+
+`Power BI` · `Excel` · `Data Analytics`
+
+- Student performance overview and trends
+- Interactive filters for deeper exploration
+- Data prepared and cleaned in Excel
+
+[View Project](https://github.com/dhanush2115/dhanush2115/tree/main/projects/student-analytics) · [GitHub Repository](https://github.com/dhanush2115/student-analytics) · [Live Dashboard](YOUR_LIVE_DASHBOARD_URL)
+
+</td>
+<td width="50%" valign="top">
+
+**[Excel Sales Report](https://github.com/dhanush2115/excel-sales-report)**
+
+Excel-based sales report with a one-page dashboard for quick decisions.
+
+`Excel` · `Data Analysis` · `Dashboard`
+
+- Pivot tables and charts
+- Formula-driven KPI summary
+- Clean, print-ready dashboard sheet
+
+[View Project](https://github.com/dhanush2115/dhanush2115/tree/main/projects/excel-sales-report) · [GitHub Repository](https://github.com/dhanush2115/excel-sales-report)
+
+</td>
+</tr>
 </table>
 
 ---
 
-<!-- 🗺️ 12. 2026 ROADMAP -->
-<h3 align="left">🗺️ <code>career_roadmap.2026()</code></h3>
+## GitHub Analytics
 
-```mermaid
-gitgraph
-   commit id: "Relational Schemas & SQL Foundations"
-   commit id: "Advanced Window Functions & CTEs"
-   branch data-viz
-   checkout data-viz
-   commit id: "Excel KPI Dashboards"
-   commit id: "Power BI Executive Views"
-   checkout main
-   merge data-viz id: "Full Analytics Pipeline Integration"
-   branch career/2026
-   checkout career/2026
-   commit id: "Machine Learning Implementations"
-   commit id: "Data Analyst Career Launch 🚀"
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=dhanush2115&show_icons=true&hide_border=true&bg_color=0A0E1F&title_color=00D4FF&icon_color=8B5CF6&text_color=E6EDF7&ring_color=8B5CF6" alt="GitHub stats" height="180"/>
+<img src="https://streak-stats.demolab.com?user=dhanush2115&hide_border=true&background=0A0E1F&ring=8B5CF6&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=E6EDF7&currStreakNum=E6EDF7&sideNums=E6EDF7&dates=8FA0C8" alt="GitHub streak" height="180"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhanush2115&layout=compact&hide_border=true&bg_color=0A0E1F&title_color=00D4FF&text_color=E6EDF7" alt="Top languages" height="160"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=dhanush2115&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub trophies" width="100%"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dhanush2115&bg_color=0A0E1F&color=00D4FF&line=8B5CF6&point=FFFFFF&area=true&area_color=8B5CF6&hide_border=true" alt="Contribution graph" width="100%"/>
+
+<img src="https://ghchart.rshah.org/8B5CF6/dhanush2115" alt="Contribution calendar" width="100%"/>
+
+</div>
+
+---
+
+## Contribution Snake
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhanush2115/dhanush2115/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhanush2115/dhanush2115/output/github-snake.svg"/>
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/dhanush2115/dhanush2115/output/github-snake-dark.svg" width="100%"/>
+</picture>
+</div>
+
+---
+
+## Learning Roadmap
+
+<div align="center">
+  <img src="assets/roadmap.svg" alt="2026 roadmap: SQL, Power BI, Python, Machine Learning, Tableau, Data Analyst career" width="560"/>
+</div>
+
+```text
+2026
+│
+├── SQL
+├── Power BI
+├── Python
+├── Machine Learning
+├── Tableau
+└── Data Analyst Career
+```
+
+### 2026 Goals
+
+- [x] Build SQL projects
+- [x] Create GitHub portfolio
+- [ ] Master Advanced SQL
+- [ ] Build professional Power BI dashboards
+- [ ] Complete Machine Learning projects
+- [ ] Improve Python for Data Analytics
+- [ ] Learn Tableau
+- [ ] Contribute to open source
+- [ ] Secure an IT / Data Analytics opportunity
+
+## Career Goals
+
+- Join a team as a **Data Analyst** or **Junior Data Analyst** and grow into a **Business Intelligence** role
+- Strengthen **Advanced SQL** and **database design** for reliable reporting
+- Publish **professional Power BI and Tableau dashboards** that answer real business questions
+- Apply **Machine Learning** and **Python** to move from reporting to prediction
+
+---
+
+## Contact
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-dhanushkumar2721-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhanushkumar2721/)
+[![GitHub](https://img.shields.io/badge/GitHub-dhanush2115-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhanush2115)
+[![Email](https://img.shields.io/badge/Email-dhanushm95872@gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhanushm95872@gmail.com)
+
+Open to **Data Analyst**, **Junior Data Analyst**, **SQL Developer** and **Power BI Developer** opportunities.
+
+</div>
+
+<div align="center">
+  <img src="assets/footer.svg" alt="Thanks for visiting my profile. Let's turn data into insights." width="100%"/>
+</div>
